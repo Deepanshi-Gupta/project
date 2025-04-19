@@ -121,8 +121,8 @@ budget = st.sidebar.radio(" Budget Preference:", ["Economy", "Standard", "Luxury
 flight_class = st.sidebar.radio("Class:", ["Economy", "Business", "First Class"])
 hotel_rating = st.sidebar.selectbox("Preferred Hotel Rating:", ["Any", "3⭐", "4⭐", "5⭐"])
 
-GEMINI_API_KEY = "AIzaSyAw04tZ7jDVeAE7VhGYrzrWXiJIUtyCee0"  # Replace with your actual Gemini API key
-SERPAPI_KEY = "0b94868e78d63bfec41dcee02f7d89f0fb6dadc4fbf679a02349c1428072610a"    # Replace with your actual SerpAPI key
+GEMINI_API_KEY =  # Replace with your actual Gemini API key
+SERPAPI_KEY =   # Replace with your actual SerpAPI key
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 # Initialize Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
